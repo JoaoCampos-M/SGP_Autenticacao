@@ -36,7 +36,7 @@ a{
 button,input{
   font-family: 'Open Sans', sans-serif;
 }
-form input[type="submit"]{
+.is-left input[type="submit"]{
   margin-left: 15%;
 }
 .panel {
