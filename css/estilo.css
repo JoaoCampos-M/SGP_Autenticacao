@@ -19,6 +19,7 @@ fieldset{
   margin: 5px auto 5px auto 5px;
   box-shadow: none !important;
   border-radius: 10px!important;
+  margin-bottom: 30px;
 }
 legend{
   font-family: 'Open Sans', sans-serif;
@@ -37,5 +38,8 @@ button,input{
 }
 .is-left input[type="submit"]{
   margin-left: 15%;
+}
+.panel {
+  box-shadow: none !important;
 }
 /*Fim dos estilos usados na tela de login*/
