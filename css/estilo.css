@@ -1,0 +1,41 @@
+@font-face{font-family:"OpenSans";src:local(OpenSans Thin),url("fonts/Open_SansOpenSans-Thin.ttf") format("ttf"),url("fonts/Open_SansOpenSans-Thin.ttf") format("ttf");font-weight:100}
+/*
+estilos principalmente usados na tela de login
+*/
+html{
+  font-family: 'Open Sans', sans-serif;
+}
+
+img{
+  background-color: gray;
+  margin: 10px auto 15px auto;
+}
+
+fieldset{
+  background-color: white;
+  padding: 20px;
+  border:2px solid #DCDCDC;
+  min-width: 281px;
+  margin: 5px auto 5px auto 5px;
+  box-shadow: none !important;
+  border-radius: 10px!important;
+}
+legend{
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  padding: 0px 10px 0px 10px;
+  color:#00A846;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+a{
+  font-family: 'Open Sans', sans-serif;
+  color:#00A846;
+}
+button,input{
+  font-family: 'Open Sans', sans-serif;
+}
+form input[type="submit"]{
+  margin-left: 15%;
+}
+/*Fim dos estilos usados na tela de login*/
