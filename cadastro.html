@@ -7,6 +7,7 @@
   <title>Cadastro no Sistema</title>
   <link rel="stylesheet" href="bulma-0.8.0/css/bulma.css">
   <link rel="stylesheet" href="css/estilo.css">
+
 </head>
 
 <body>
@@ -29,27 +30,27 @@
                 <div class="field">
                   <div class="control">
                     <label class="label"><a>Nome:</a></label>
-                    <input class="input" type="text" name="">
+                    <input class="input" type="text" name="nome">
                   </div>
                 </div>
                 <div class="field is-grouped">
                   <div class="control">
                     <label class="label"><a>CPF:<a></a></label>
-                    <input class="input" type="text" name="">
+                    <input class="input" type="text" maxlength="14" name="cpf" id="cpf" placeholder="apenas numeros">
                   </div>
                   <div class="control">
                     <label class="label"><a>Celular:</a></label>
-                    <input class="input" type="text" name="">
+                    <input class="input" type="text" maxlength="15" name="celular" id="numero" placeholder="apenas numeros">
                   </div>
                 </div>
                 <div class="field is-grouped">
                   <div class="control">
                     <label class="label"><a>Senha:</a></label>
-                    <input class="input" type="text" name="">
+                    <input class="input" type="password" name="senha" placeholder="**********">
                   </div>
                   <div class="control">
                     <label class="label"><a>Confirme sua Senha:</a></label>
-                    <input class="input" type="text" name="">
+                    <input class="input" type="password" name="confimaSenha"  placeholder="**********">
                   </div>
                 </div>
               </fieldset>
@@ -58,18 +59,18 @@
                 <div class="field">
                   <div class="control">
                     <label class="label"><a>E-mail:</a></label>
-                    <input class="input" type="text" maxlength="50" name="">
+                    <input class="input" type="text" maxlength="50" name="email">
                   </div>
                 </div>
                 <div class="field is-grouped">
                   <div class="control">
                     <label class="label"><a>Matrícula:</a></label>
-                    <input class="input" type="text" name="">
+                    <input class="input" type="text" name="matricula">
                   </div>
                   <div style="margin-left: 45px;" class="control">
                     <label class="label"><a>Setor:</a></label>
                     <div class="select">
-                      <select>
+                      <select name="setor">
                         <option>Dep. Matematica</option>
                         <option>Dep.</option>
                         <option>Dep.</option>
@@ -109,6 +110,6 @@
       </div>
     </div>
   </section>
+  <script src="js/mascara.js"></script>
 </body>
-
 </html>
