@@ -6,51 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Login no Sistema </title>
     <link rel="stylesheet" href="bulma-0.8.0/css/bulma.css">
-    <style>
-      @font-face{font-family:"OpenSans";src:local(OpenSans Thin),url("fonts/Open_SansOpenSans-Thin.ttf") format("ttf"),url("fonts/Open_SansOpenSans-Thin.ttf") format("ttf");font-weight:100}
-      html{
-        font-family: 'Open Sans', sans-serif;
-      }
-      .section{
-        background-color: aqua;
-      }
-      .container{
-        background-color: brown;
-      }
-      img{
-        background-color: gray;
-        margin: 10px auto 15px auto;
-      }
-    
-      fieldset{
-        background-color: white;
-        padding: 20px;
-        border:2px solid #DCDCDC;
-        min-width: 281px;
-        margin: 5px auto 5px auto 5px;
-        box-shadow: none !important;
-        border-radius: 10px!important;
-      }
-      legend{
-        font-family: 'Open Sans', sans-serif;
-        display: block;
-        padding: 0px 10px 0px 10px;
-        color:#00A846;
-        text-transform: uppercase;
-        font-weight: bolder;
-      }
-      a{
-        font-family: 'Open Sans', sans-serif;
-        color:#00A846;
-      }
-      button,input{
-        font-family: 'Open Sans', sans-serif;
-      }
-      /*input[type="submit"]{
-        padding: 10px 5px 10px 5px!important;
-      }*/
-    </style>
-
+    <link rel="stylesheet" href="css/estilo.css" >
   </head>
   <body>
   <section class="section">
@@ -69,7 +25,7 @@
       <fieldset class="panel" >
         <legend>Login</legend>
           <!--Formulário de login-->
-          <form  action=""  >
+          <form  action="painel.html"  >
             <div class="field" >
               <input class="input"  type="text" placeholder="Usuário" >
             </div>
@@ -78,7 +34,7 @@
             </div>
             <div class="field is-grouped is-grouped-centered">
               <div class="control" >
-                <p><a>Esqueci a senha</a>  </p>
+                <p><a href="recuperarsenha.html" >Esqueci a senha</a>  </p>
               </div>
               <div class="control is-left" >
                 <input class="button is-primary " type="submit" value="Entrar" >
@@ -86,10 +42,10 @@
             </div>
           </form>
       </fieldset>
-      <p> Ainda não é um Usuário? <a>Cadastre-se</a></p>
+      <p> Ainda não é um Usuário? <a href="cadastro.html" >Cadastre-se</a></p>
       <div class="columns">
         <div class="column"></div>
-        <div class="column">
+        <div class="column  ">
           <img src="" width="128" height="90" >
         </div>
         <div class="column"></div>
